@@ -1,5 +1,13 @@
 \documentclass[a4paper]{article}
 
+\usepackage{geometry}\geometry{
+    a4paper,
+    top=30mm,
+    right=20mm,
+    bottom=20mm,
+    left=30mm,
+}
+
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
 \usepackage[T1]{fontenc}
@@ -14,18 +22,12 @@
 \usepackage{verbatim}
 \usepackage{subcaption}
 \usepackage{url}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage{microtype}
-\usepackage{lipsum}
-
-\newcommand{\bpasso}{\begin{enumerate}[label=\textbf{Passo \arabic*:}, nolistsep, leftmargin=46pt]}
-\newcommand{\epasso}{\end{enumerate}}
 
 \title{
-    TITULO AQUI \\
-    DISCIPLINA/PUBLICACAO AQUI \\
-    \large SUBTITULO AQUI
+    Título: \\
+    Subtítulo \\
 }
 
 \author{
@@ -39,6 +41,10 @@
 \begin{document}
 
 \maketitle
+
+\begin{abstract}
+    asdf
+\end{abstract}
 
 \section{Introdução}\label{sec-introducao}
 
